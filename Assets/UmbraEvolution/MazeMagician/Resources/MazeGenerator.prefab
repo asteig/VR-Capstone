@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &104980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 457664}
+  - 114: {fileID: 11439140}
+  m_Layer: 0
+  m_Name: MazeGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &457664
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104980}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 55.583546, y: 38.24858, z: 108.63239}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11439140
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af421f6b0345faa45a566101c15241ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mazeDimension: 1
+  useSeedValue: 0
+  seedValue: 0
+  showDimensionsGizmo: 1
+  dimensionsGizmoColour: {r: 0, g: 0.5882353, b: 0, a: 0.5882353}
+  mazeWidth: 15
+  mazeLength: 15
+  mazePosition: {x: 0, y: 0, z: 0}
+  makeBraidMaze: 0
+  makeFloorExit: 0
+  exitType: 2
+  makeStartingArea: 0
+  startingAreaWidth: 0
+  startingAreaLength: 0
+  startingAreaX: 1
+  startingAreaZ: 1
+  mazeTileWidthAndLength: 0.01
+  wallHeight: 0.01
+  floorPieceThickness: 0.01
+  numberOfWallPieces: 1
+  wallPieces:
+  - {fileID: 0}
+  numberOfFloorPieces: 1
+  floorPieces:
+  - {fileID: 0}
+  numberOfExitPieces: 1
+  exitPieces:
+  - {fileID: 0}
+  addDetails: 0
+  wallDetails:
+  - detailName: 
+    detailPrefab: {fileID: 0}
+    thickness: 0
+    height: 0
+    width: 0
+    minHeight: 0
+    maxHeight: 0
+    minHorizontalOffset: 0
+    maxHorizontalOffset: 0
+    frequency: 0
+  otherDetails:
+  - detailName: 
+    detailPrefab: {fileID: 0}
+    thickness: 0
+    height: 0
+    width: 0
+    minHeight: 0
+    maxHeight: 0
+    minXOffset: 0
+    maxXOffset: 0
+    minZOffset: 0
+    maxZOffset: 0
+    frequency: 0
+  mazeName: NoName
+  allowEditorUndo: 0
+  wallZPlane: 0
+  floorZPlane: 0
+  twoDimensionalDetails:
+  - detailName: 
+    detailPrefab: {fileID: 0}
+    height: 0
+    width: 0
+    zPlane: 0
+    minXOffset: 0
+    maxXOffset: 0
+    minYOffset: 0
+    maxYOffset: 0
+    frequency: 0
+  theMaze: {fileID: 0}
+  latestMazeMap:
+    map: 
+    wallIDs: 
+    floorIDs: 
+    wallDetailMaps: []
+    otherDetailMaps: []
+    twoDimensionalDetailMaps: []
+    mazeWidth: 0
+    mazeLength: 0
+  showFloorPieces: 0
+  showExitPieces: 0
+  showWallPieces: 0
+  showStartingAreaProperties: 1
+  showDetails: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: addDetails
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: makeFloorExit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: exitType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mazeTileWidthAndLength
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: wallHeight
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: floorPieceThickness
+      value: 0.01
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 104980}
+  m_IsPrefabParent: 1
