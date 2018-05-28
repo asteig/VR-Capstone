@@ -4,28 +4,28 @@ For the Capstone project, I indend to get every point! They're all individually 
 
 ## Achievements
 ### Fundamentals
-- [X] Scale (100 points)
-- [X] Animation (100 points)
-- [X] Lighting (100 points)
-- [ ] Locomotion (100 points)
-- [ ] Physics (100 points)
-- [ ] Video Player (100 points)
-- [X] Empathy (100 points)
+- [X] Scale (100 points) [FEASIBLE]
+- [X] Animation (100 points) [FEASIBLE]
+- [X] Lighting (100 points) [FEASIBLE]
+- [ ] Locomotion (100 points) [FEASIBLE]
+- [ ] Physics (100 points) [FEASIBLE]
+- [ ] Video Player (100 points) [FEASIBLE]
+- [X] Empathy (100 points) [FEASIBLE]
 
 ### Completeness
-- [ ] Gamification (250 points)
-- [ ] Diegetic UI (250 points)
-- [ ] Alternate Storyline (250 points)
-- [ ] AI (250 points)
-- [ ] 3D Modeling (250 points)
-- [ ] Photogrammetry (250 points)
+- [ ] Gamification (250 points) [FEASIBLE]
+- [ ] Diegetic UI (250 points) [FEASIBLE]
+- [ ] Alternate Storyline (250 points) [FEASIBLE]
+- [ ] AI (250 points) [STRETCH]
+- [ ] 3D Modeling (250 points) [STRETCH]
+- [ ] Photogrammetry (250 points) [STRETCH]
 
 ### Challenges
-- [ ] Speech Recognition (500 points)
-- [ ] User Testing (250 points)
-- [ ] Computer Shader (500 points)
-- [ ] Multiplayer (500 points)
-- [ ] Mixed-Reality Video (500 points)
-- [ ] App Store (1000 points)
+- [ ] Speech Recognition (500 points) [FEASIBLE]
+- [ ] User Testing (250 points) [FEASIBLE]
+- [ ] Computer Shader (500 points) [STRETCH]
+- [ ] Multiplayer (500 points) [FEASIBLE]
+- [ ] Mixed-Reality Video (500 points) [STRETCH]
+- [ ] App Store (1000 points) [STRETCH]
 
-I'll be writing a Medium post that covers the implementation of each achievement separately. 
+For more information on how each achievement was implemented, please see my Medium post: 
