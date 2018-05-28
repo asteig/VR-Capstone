@@ -4,13 +4,13 @@ For the Capstone project, I indend to get every point! They're all individually 
 
 ## Achievements
 ### Fundamentals
-- [ ] Scale (100 points)
-- [ ] Animation (100 points)
-- [ ] Lighting (100 points)
+- [X] Scale (100 points)
+- [X] Animation (100 points)
+- [X] Lighting (100 points)
 - [ ] Locomotion (100 points)
 - [ ] Physics (100 points)
 - [ ] Video Player (100 points)
-- [ ] Empathy (100 points)
+- [X] Empathy (100 points)
 
 ### Completeness
 - [ ] Gamification (250 points)
@@ -23,7 +23,7 @@ For the Capstone project, I indend to get every point! They're all individually 
 ### Challenges
 - [ ] Speech Recognition (500 points)
 - [ ] User Testing (250 points)
-- [ ] Computer Shader (500 points)
+- [X] Computer Shader (500 points)
 - [ ] Multiplayer (500 points)
 - [ ] Mixed-Reality Video (500 points)
 - [ ] App Store (1000 points)
