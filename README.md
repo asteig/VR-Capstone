@@ -1,5 +1,7 @@
 # VR Capstone Project
 
+For the Capstone project, I indend to get every point! They're all individually feasible, the limiting factor is time. By working at a steady pace, I hope to complete as many as possible. 
+
 ## Achievements
 ### Fundamentals
 - [ ] Scale (100 points)
@@ -25,3 +27,5 @@
 - [ ] Multiplayer (500 points)
 - [ ] Mixed-Reality Video (500 points)
 - [ ] App Store (1000 points)
+
+I'll be writing a Medium post that covers the implementation of each achievement separately. 
