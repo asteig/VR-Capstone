@@ -28,14 +28,7 @@ public class ScreamScale : MonoBehaviour {
 
 
 	}
-
-
-	//this value is only menat for the UI slider, you can ignore it.
-	public void sensitivity(float sense){
-		amp = sense;
-
-	}
-
+		
 
 
 
