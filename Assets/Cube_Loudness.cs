@@ -11,6 +11,7 @@ public class Cube_Loudness : MonoBehaviour {
 
 	//create an extra value to extra amplify our input. This way we can controll amplification per object.
 	public float amp=1.0f;
+	public float threshold=3.0f;
 
 	void Start () {
 		getLoudness = controller.GetComponent<MicControlC> ().loudness;
@@ -21,6 +22,11 @@ public class Cube_Loudness : MonoBehaviour {
 		getLoudness = controller.GetComponent<MicControlC> ().loudness;
 
 		transform.localScale = new Vector3(1, getLoudness, 1);
+
+		if (getLoudness > threshold) {
+			Debug.Log ("Scream triggered");
+		}
+
 
 	}
 
