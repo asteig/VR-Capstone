@@ -15521,7 +15521,7 @@ Transform:
   m_GameObject: {fileID: 258665935}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 4.7576265}
   m_Children: []
   m_Father: {fileID: 580606159}
   m_RootOrder: 1
@@ -39128,7 +39128,7 @@ MonoBehaviour:
   mazeDimension: 1
   useSeedValue: 0
   seedValue: 1448212356
-  showDimensionsGizmo: 0
+  showDimensionsGizmo: 1
   dimensionsGizmoColour: {r: 0, g: 0.5882353, b: 0, a: 0.5882353}
   mazeWidth: 15
   mazeLength: 15
@@ -52161,7 +52161,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 809763763}
-  - {fileID: 1521469502}
+  - {fileID: 1287930028}
   m_Father: {fileID: 1960827010}
   m_RootOrder: 345
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -82370,6 +82370,35 @@ Transform:
   m_Father: {fileID: 1960827010}
   m_RootOrder: 241
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1287930027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1287930028}
+  m_Layer: 0
+  m_Name: WallCenterPivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1287930028
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1287930027}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1521469502}
+  m_Father: {fileID: 830021738}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1291708847
 GameObject:
   m_ObjectHideFlags: 0
@@ -97460,6 +97489,8 @@ GameObject:
   - component: {fileID: 1521469502}
   - component: {fileID: 1521469504}
   - component: {fileID: 1521469503}
+  - component: {fileID: 1521469505}
+  - component: {fileID: 1521469506}
   m_Layer: 0
   m_Name: DungeonWallA
   m_TagString: Untagged
@@ -97477,8 +97508,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 830021738}
-  m_RootOrder: 1
+  m_Father: {fileID: 1287930028}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1521469503
 MeshRenderer:
@@ -97522,6 +97553,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1521469501}
   m_Mesh: {fileID: 4300000, guid: edc89b7f38231d5449d2606e44d527af, type: 3}
+--- !u!114 &1521469505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1521469501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d914bc98b8ba4ac797e33baddcc0cb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1521469506
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1521469501}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 0.04}
+  m_Center: {x: 0, y: 1, z: 0.02}
 --- !u!1 &1521608684
 GameObject:
   m_ObjectHideFlags: 0
@@ -100740,7 +100794,7 @@ Transform:
   m_GameObject: {fileID: 1561539917}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 5.2791567}
   m_Children: []
   m_Father: {fileID: 1232522233}
   m_RootOrder: 1
@@ -105230,7 +105284,7 @@ Transform:
   m_GameObject: {fileID: 1637198406}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 2.5774693}
   m_Children: []
   m_Father: {fileID: 375885383}
   m_RootOrder: 1
