@@ -21,8 +21,8 @@ For the Capstone project, I indend to get every point! They're all individually 
 - [ ] Photogrammetry (250 points) ```STRETCH```
 
 ### Challenges
-- [ ] Speech Recognition (500 points) ```FEASIBLE```
-- [ ] User Testing (250 points) ```FEASIBLE```
+- [X] Speech Recognition (500 points) ```FEASIBLE```
+- [X] User Testing (250 points) ```FEASIBLE```
 - [ ] Computer Shader (500 points) ```STRETCH```
 - [ ] Multiplayer (500 points) ```FEASIBLE```
 - [ ] Mixed-Reality Video (500 points) ```STRETCH```
