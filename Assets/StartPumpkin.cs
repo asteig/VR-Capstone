@@ -13,4 +13,9 @@ public class StartPumpkin : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	public void Test()
+	{
+        Debug.Log("I am right here");
+	}
 }
