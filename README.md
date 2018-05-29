@@ -7,8 +7,8 @@ For the Capstone project, I indend to get every point! They're all individually 
 - [X] Scale (100 points) ``````FEASIBLE``````
 - [X] Animation (100 points) ```FEASIBLE```
 - [X] Lighting (100 points) ```FEASIBLE```
-- [ ] Locomotion (100 points) ```FEASIBLE```
-- [ ] Physics (100 points) ```FEASIBLE```
+- [X] Locomotion (100 points) ```FEASIBLE```
+- [X] Physics (100 points) ```FEASIBLE```
 - [ ] Video Player (100 points) ```FEASIBLE```
 - [X] Empathy (100 points) ```FEASIBLE```
 
