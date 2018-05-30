@@ -10342,6 +10342,60 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 273967774}
   m_Mesh: {fileID: 4300000, guid: edc89b7f38231d5449d2606e44d527af, type: 3}
+--- !u!1001 &277108034
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4750932625193884, guid: e193aeba793b2ed4da311c6a1f433691, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 11.7827835
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750932625193884, guid: e193aeba793b2ed4da311c6a1f433691, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750932625193884, guid: e193aeba793b2ed4da311c6a1f433691, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.112
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750932625193884, guid: e193aeba793b2ed4da311c6a1f433691, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750932625193884, guid: e193aeba793b2ed4da311c6a1f433691, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750932625193884, guid: e193aeba793b2ed4da311c6a1f433691, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750932625193884, guid: e193aeba793b2ed4da311c6a1f433691, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750932625193884, guid: e193aeba793b2ed4da311c6a1f433691, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750932625193884, guid: e193aeba793b2ed4da311c6a1f433691, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.5040194
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750932625193884, guid: e193aeba793b2ed4da311c6a1f433691, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.5040194
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750932625193884, guid: e193aeba793b2ed4da311c6a1f433691, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.5040194
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e193aeba793b2ed4da311c6a1f433691, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &277163764
 GameObject:
   m_ObjectHideFlags: 0
@@ -20885,7 +20939,7 @@ Transform:
   - {fileID: 1466474813}
   - {fileID: 902556165}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &566945920
 GameObject:
@@ -22457,7 +22511,7 @@ Transform:
   m_LocalScale: {x: 2.6658874, y: 1, z: 6.257417}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &621022959
 GameObject:
@@ -23691,13 +23745,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 649668240}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: 0.8414687, z: -0, w: 0.5403059}
+  m_LocalPosition: {x: 6.99025, y: 0, z: 7.490038}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1755037907}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 114.591, z: 0}
 --- !u!81 &649668242
 AudioListener:
   m_ObjectHideFlags: 0
@@ -46066,7 +46120,7 @@ Transform:
   - {fileID: 2050053267}
   - {fileID: 1741287761}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1319126148
 GameObject:
@@ -61143,7 +61197,7 @@ Transform:
   m_Children:
   - {fileID: 649668241}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &1755037908
 MonoBehaviour:
