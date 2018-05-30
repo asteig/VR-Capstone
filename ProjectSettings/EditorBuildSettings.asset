@@ -14,3 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: bba2e4832fa244e069b95da47f5522cb
+  - enabled: 1
+    path: Assets/Scenes/MazeDungeon.unity
+    guid: fbf29aa03f8eb4286982c3484191d9ac
