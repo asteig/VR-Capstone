@@ -47,7 +47,7 @@ public class MaterialChanger : MonoBehaviour {
         yield return new WaitForEndOfFrame();
         if (pointerOverButton == false && pointerOverMenu == false) {
             childCollider.gameObject.SetActive(false);
-            iTween.ScaleTo(currentMenu.transform.GetChild(0).gameObject, iTween.Hash("scale", Vector3.zero, "time", 1f, "oncomplete", "DestroyMenu", "oncompletetarget", gameObject));
+            //iTween.ScaleTo(currentMenu.transform.GetChild(0).gameObject, iTween.Hash("scale", Vector3.zero, "time", 1f, "oncomplete", "DestroyMenu", "oncompletetarget", gameObject));
         }
     }
 

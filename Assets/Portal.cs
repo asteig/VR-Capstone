@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Portal : MonoBehaviour {
 
@@ -17,7 +18,7 @@ public class Portal : MonoBehaviour {
 	void OnCollisionEnter(Collision col) {
 		if (col.gameObject.name == "Player") {
 			Debug.Log ("Player hit orb");
-			Application.LoadLevel ("MainScene");
+			SceneManager.LoadScene ("MainScene");
 		}
 	}
 

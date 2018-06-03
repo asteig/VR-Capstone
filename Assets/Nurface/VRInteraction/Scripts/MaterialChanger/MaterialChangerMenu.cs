@@ -13,7 +13,7 @@ public class MaterialChangerMenu : MonoBehaviour {
 
     private void Start() {
         transform.GetChild(0).gameObject.GetComponent<RectTransform>().localScale = Vector3.zero;
-        iTween.ScaleTo(transform.GetChild(0).gameObject, Vector3.one, 1f);
+        //iTween.ScaleTo(transform.GetChild(0).gameObject, Vector3.one, 1f);
     }
 
     public void SpawnButtons(MaterialChanger obj) {
