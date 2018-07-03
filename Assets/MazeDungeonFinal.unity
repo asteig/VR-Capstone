@@ -730,12 +730,24 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 505503829}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 324ff4d9cb6894e88ab62107bb6c0776, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelName: 
+  LevelName: CornMazeFinal
+--- !u!65 &505503835
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 505503829}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.2599998, y: 4.2600007, z: 4.2600007}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &617657078
 Prefab:
   m_ObjectHideFlags: 0
@@ -801,7 +813,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1959227913798834, guid: babedfdcf6a004bcebd9bf00b8136636, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4601425668816190, guid: babedfdcf6a004bcebd9bf00b8136636, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 5.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 1653722240599310, guid: babedfdcf6a004bcebd9bf00b8136636, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: babedfdcf6a004bcebd9bf00b8136636, type: 2}
@@ -1183,7 +1203,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4976378449795062, guid: df486e3a302684d9d8fede420ef9b251, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 5.56
+      value: 13.2
       objectReference: {fileID: 0}
     - target: {fileID: 4976378449795062, guid: df486e3a302684d9d8fede420ef9b251, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1191,7 +1211,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4976378449795062, guid: df486e3a302684d9d8fede420ef9b251, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 5.68
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 4976378449795062, guid: df486e3a302684d9d8fede420ef9b251, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1212,6 +1232,11 @@ Prefab:
     - target: {fileID: 4976378449795062, guid: df486e3a302684d9d8fede420ef9b251, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114090314673247978, guid: df486e3a302684d9d8fede420ef9b251,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: df486e3a302684d9d8fede420ef9b251, type: 2}
@@ -1579,7 +1604,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4506461370144688, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.39
+      value: 1.09
       objectReference: {fileID: 0}
     - target: {fileID: 4506461370144688, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1629,11 +1654,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1087615268663324, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
       propertyPath: m_Name
-      value: Agent
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4084080481962014, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
       propertyPath: m_LocalPosition.y
       value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 23203065579364172, guid: e94185453b6354a949b3ddf527d15cde,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
@@ -1756,7 +1786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPoint: {fileID: 7982561}
-  speed: 2
+  speed: 1.5
   player: {fileID: 1664391297}
 --- !u!1 &1689638856
 GameObject:

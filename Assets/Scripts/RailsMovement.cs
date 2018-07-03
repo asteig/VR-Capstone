@@ -32,6 +32,7 @@ public class RailsMovement : MonoBehaviour {
 
 	void MoveNext () {
 
+        transform.position = new Vector3(transform.position.x, 1.09f, transform.position.z);
 		transform.position = Vector3.MoveTowards (transform.position, nextPoint.transform.position, (speed*Time.deltaTime));
 	}
 

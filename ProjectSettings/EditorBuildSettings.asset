@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/CornMazeFinal.unity
     guid: 461051584b92a421fb8747c08f14fd63
+  - enabled: 1
+    path: Assets/Scenes/TestAgentLocomotion.unity
+    guid: 46a9ee0456e0c45c9a03f68f3ec94273
   m_configObjects: {}
