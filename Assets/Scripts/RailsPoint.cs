@@ -2,21 +2,34 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RailsPoint : MonoBehaviour {
+public class RailsPoint : MonoBehaviour
+{
 
-    public GameObject front;
-    public GameObject left;
-    public GameObject right;
+    public bool isDead;
+    public bool hasLeft;
+
     public GameObject next;
+    public RailsPoint nextPoint;
+
 
     // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    void Start()
+    {
+        nextPoint = nextPoint.next.GetComponent<RailsPoint>();
+        if(hasLeft) {
+            
+        }
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+    void HasLeft() {
+        
+    } 
 
 }
