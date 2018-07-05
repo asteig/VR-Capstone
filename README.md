@@ -16,7 +16,7 @@ For the Capstone project, I indend to get every point! They're all individually 
 - [X] Gamification (250 points) ```FEASIBLE```
 - [X] Diegetic UI (250 points) ```FEASIBLE```
 - [X] Alternate Storyline (250 points) ```FEASIBLE```
-- [ ] AI (250 points) ```STRETCH```
+- [X] AI (250 points) ```STRETCH```
 - [ ] 3D Modeling (250 points) ```STRETCH```
 - [ ] Photogrammetry (250 points) ```STRETCH```
 
