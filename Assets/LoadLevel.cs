@@ -15,7 +15,6 @@ public class LoadLevel : MonoBehaviour {
 	}
 
 	public void GoTo(string levelName) {
-		Debug.Log ("GoTo");
-		Application.LoadLevel ("MazeDungeon");
+		Application.LoadLevel (levelName);
 	}
 }
