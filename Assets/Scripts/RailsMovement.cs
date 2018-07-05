@@ -5,7 +5,7 @@ using UnityEngine;
 public class RailsMovement : MonoBehaviour {
 
 	public RailsPoint nextPoint;
-	private bool started = false;
+	private bool started = true;
 	public float speed = 2.0f;
     public GameObject player;
 
@@ -51,7 +51,7 @@ public class RailsMovement : MonoBehaviour {
 		Quaternion targetRotation = dummy.transform.rotation;
 		Destroy(dummy);
 		for (float i = 0.0f; i <= 1; i+=0.1f) {
-			yield return new WaitForSeconds(0.1f);
+			yield return new WaitForSeconds(0.0f);
 			transform.rotation = Quaternion.Lerp (currentRotation, targetRotation, i);
 		}
 

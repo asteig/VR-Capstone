@@ -16,9 +16,6 @@ public class RailsPoint : MonoBehaviour
     void Start()
     {
         nextPoint = nextPoint.next.GetComponent<RailsPoint>();
-        if(hasLeft) {
-            
-        }
 
     }
 
