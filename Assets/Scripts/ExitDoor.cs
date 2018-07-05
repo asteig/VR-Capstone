@@ -1,8 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ExitDoor : MonoBehaviour {
+
+    public GameObject winsign;
 
 	// Use this for initialization
 	void Start () {
@@ -18,7 +21,7 @@ public class ExitDoor : MonoBehaviour {
     {
         if (col.gameObject.name == "Player")
         {
-            Debug.Log("Player hit the box");
+            winsign.SetActive(true);
         }
     }
 }

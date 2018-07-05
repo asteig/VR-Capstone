@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LoadLevel : MonoBehaviour {
 
+    public string levelName;
+
 	// Use this for initialization
 	void Start () {
 		
