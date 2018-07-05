@@ -9,7 +9,7 @@ For the Capstone project, I indend to get every point! They're all individually 
 - [X] Lighting (100 points) ```FEASIBLE```
 - [X] Locomotion (100 points) ```FEASIBLE```
 - [X] Physics (100 points) ```FEASIBLE```
-- [ ] Video Player (100 points) ```FEASIBLE```
+- [X] Video Player (100 points) ```FEASIBLE```
 - [X] Empathy (100 points) ```FEASIBLE```
 
 ### Completeness
