@@ -6,7 +6,7 @@ public class ToggleWalk : MonoBehaviour
 {
 
     public Transform vrCamera;
-    public float speed = 1.0f;
+    public float speed = 3.0f;
     public bool moveForward = false;
 
     private Rigidbody cc;
@@ -28,7 +28,7 @@ public class ToggleWalk : MonoBehaviour
 
         if (moveForward)
         {
-            cc.velocity = vrCamera.transform.forward * speed;
+            cc.velocity = vrCamera.transform.forward * 3.0f;
         }
         else
         {

@@ -7,7 +7,8 @@ public class SetupLocalPlayer : NetworkBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        
+
+        Debug.Log("HERE!!!!!!!!");
 		if(isLocalPlayer) {
             GetComponent<ToggleWalk>().enabled = true;    
         }

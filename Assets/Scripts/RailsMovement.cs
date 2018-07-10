@@ -9,6 +9,8 @@ public class RailsMovement : MonoBehaviour {
 	public float speed = 2.0f;
     public GameObject player;
 
+    private GameObject dummy;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -43,7 +45,7 @@ public class RailsMovement : MonoBehaviour {
 
 		Quaternion currentRotation = transform.rotation;
 
-		GameObject dummy = Instantiate(new GameObject(), transform.position, transform.rotation) as GameObject;
+		dummy = Instantiate(new GameObject(), transform.position, transform.rotation) as GameObject;
 
 	
 		dummy.transform.LookAt (nextPoint.transform.position);
