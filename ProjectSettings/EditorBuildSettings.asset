@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/CornMazeFinal.unity
+    guid: 461051584b92a421fb8747c08f14fd63
+  - enabled: 1
     path: Assets/Scenes/MazeDungeonFinal.unity
     guid: 437c04ef1c64e48a783a1727ffd8e23d
   m_configObjects: {}

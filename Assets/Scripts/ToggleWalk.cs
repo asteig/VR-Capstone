@@ -28,7 +28,7 @@ public class ToggleWalk : MonoBehaviour
 
         if (moveForward)
         {
-            cc.velocity = vrCamera.transform.forward * 3.0f;
+            cc.velocity = vrCamera.transform.forward * speed;
         }
         else
         {
