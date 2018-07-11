@@ -20,7 +20,7 @@ public class Portal : MonoBehaviour {
 	void OnCollisionEnter(Collision col) {
         Debug.Log("Collision");
 
-        if (col.gameObject.name == "Player")
+        if (col.gameObject.name.Contains("Player"))
         {
             SceneManager.LoadScene (LevelName);
         }

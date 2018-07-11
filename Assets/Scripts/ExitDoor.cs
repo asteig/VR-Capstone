@@ -19,7 +19,7 @@ public class ExitDoor : MonoBehaviour {
 
     void OnCollisionEnter(Collision col)
     {       
-        if (col.gameObject.name == "Player")
+        if (col.gameObject.name.Contains("Player"))
         {
             winsign.SetActive(true);
         }
