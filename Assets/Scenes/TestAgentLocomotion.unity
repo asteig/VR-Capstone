@@ -210,10 +210,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 2086297511}
+  nextPoint: {fileID: 0}
 --- !u!1 &10095725
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,10 +257,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 1594276414}
+  nextPoint: {fileID: 0}
 --- !u!135 &10095728
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -358,10 +358,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 1689638856}
+  nextPoint: {fileID: 0}
 --- !u!135 &68436729
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -459,10 +459,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 905729629}
+  nextPoint: {fileID: 0}
 --- !u!135 &245176205
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -560,10 +560,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 1950467155}
+  nextPoint: {fileID: 0}
 --- !u!135 &280755608
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -661,10 +661,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 1467024989}
+  nextPoint: {fileID: 0}
 --- !u!135 &365830313
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -730,12 +730,26 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 505503829}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 324ff4d9cb6894e88ab62107bb6c0776, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   LevelName: 
+--- !u!114 &505503835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 505503829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8017a36045bbe4953a42b06089942433, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextPoint: {fileID: 7982561}
+  speed: 2
+  player: {fileID: 0}
 --- !u!1001 &617657078
 Prefab:
   m_ObjectHideFlags: 0
@@ -773,7 +787,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4380602072705858, guid: babedfdcf6a004bcebd9bf00b8136636, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4380602072705858, guid: babedfdcf6a004bcebd9bf00b8136636, type: 2}
       propertyPath: m_LocalScale.x
@@ -914,10 +928,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 0}
+  nextPoint: {fileID: 0}
 --- !u!135 &887339490
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1015,10 +1029,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 280755605}
+  nextPoint: {fileID: 0}
 --- !u!135 &905729632
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1073,6 +1087,48 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 905729629}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &988816638
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4165480735509784, guid: 02849d96383134210bda492a49e1a9e0, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 11.178029
+      objectReference: {fileID: 0}
+    - target: {fileID: 4165480735509784, guid: 02849d96383134210bda492a49e1a9e0, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 4165480735509784, guid: 02849d96383134210bda492a49e1a9e0, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 6.378895
+      objectReference: {fileID: 0}
+    - target: {fileID: 4165480735509784, guid: 02849d96383134210bda492a49e1a9e0, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4165480735509784, guid: 02849d96383134210bda492a49e1a9e0, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4165480735509784, guid: 02849d96383134210bda492a49e1a9e0, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4165480735509784, guid: 02849d96383134210bda492a49e1a9e0, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4165480735509784, guid: 02849d96383134210bda492a49e1a9e0, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 02849d96383134210bda492a49e1a9e0, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1040211916
 GameObject:
   m_ObjectHideFlags: 0
@@ -1116,10 +1172,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 1848237824}
+  nextPoint: {fileID: 0}
 --- !u!135 &1040211919
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1211,7 +1267,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4976378449795062, guid: df486e3a302684d9d8fede420ef9b251, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114090314673247978, guid: df486e3a302684d9d8fede420ef9b251,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: df486e3a302684d9d8fede420ef9b251, type: 2}
@@ -1259,10 +1320,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 0}
+  nextPoint: {fileID: 0}
 --- !u!135 &1401292077
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1360,10 +1421,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 245176202}
+  nextPoint: {fileID: 0}
 --- !u!135 &1430330529
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1508,10 +1569,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 0}
+  nextPoint: {fileID: 0}
 --- !u!135 &1467024992
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1566,78 +1627,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1467024989}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &1536222266
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4506461370144688, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4506461370144688, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1.39
-      objectReference: {fileID: 0}
-    - target: {fileID: 4506461370144688, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 4506461370144688, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4506461370144688, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4506461370144688, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4506461370144688, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4506461370144688, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4506461370144688, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.29999977
-      objectReference: {fileID: 0}
-    - target: {fileID: 4506461370144688, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4506461370144688, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.2375001
-      objectReference: {fileID: 0}
-    - target: {fileID: 136382791785483286, guid: e94185453b6354a949b3ddf527d15cde,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114179750464281882, guid: e94185453b6354a949b3ddf527d15cde,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1087615268663324, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
-      propertyPath: m_Name
-      value: Agent
-      objectReference: {fileID: 0}
-    - target: {fileID: 4084080481962014, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1.8
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e94185453b6354a949b3ddf527d15cde, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1594276414
 GameObject:
   m_ObjectHideFlags: 0
@@ -1681,10 +1670,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 1979893856}
+  nextPoint: {fileID: 0}
 --- !u!135 &1594276417
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1739,25 +1728,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1594276414}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1664391297 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1087615268663324, guid: e94185453b6354a949b3ddf527d15cde,
-    type: 2}
-  m_PrefabInternal: {fileID: 1536222266}
---- !u!114 &1664391304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1664391297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8017a36045bbe4953a42b06089942433, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextPoint: {fileID: 7982561}
-  speed: 2
-  player: {fileID: 1664391297}
 --- !u!1 &1689638856
 GameObject:
   m_ObjectHideFlags: 0
@@ -1801,10 +1771,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 10095725}
+  nextPoint: {fileID: 0}
 --- !u!135 &1689638859
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1902,10 +1872,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 68436726}
+  nextPoint: {fileID: 0}
 --- !u!135 &1848237827
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2003,10 +1973,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 1040211916}
+  nextPoint: {fileID: 0}
 --- !u!135 &1950467158
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2104,10 +2074,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 365830310}
+  nextPoint: {fileID: 0}
 --- !u!135 &1979893859
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2205,10 +2175,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 0}
+  nextPoint: {fileID: 0}
 --- !u!135 &2046259527
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2306,10 +2276,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca7056745f614d9e914562319f1bb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  front: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
+  isDead: 0
+  hasLeft: 0
   next: {fileID: 1430330526}
+  nextPoint: {fileID: 0}
 --- !u!135 &2086297514
 SphereCollider:
   m_ObjectHideFlags: 0
