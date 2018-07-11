@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 20410745827444700}
   - component: {fileID: 124756088356626094}
   - component: {fileID: 81872414357587170}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 114017485944059300}
   - component: {fileID: 114165208565482262}
   - component: {fileID: 114287621246948982}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player_Final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,7 +64,7 @@ GameObject:
   - component: {fileID: 4441798953827270}
   - component: {fileID: 23864262112627178}
   - component: {fileID: 114237261871135168}
-  m_Layer: 2
+  m_Layer: 10
   m_Name: NvrReticleRing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,7 +82,7 @@ GameObject:
   - component: {fileID: 114367522821422534}
   - component: {fileID: 114814447326691506}
   - component: {fileID: 114903310895371510}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: NvrEventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 4120537463851766}
   - component: {fileID: 23687495963520924}
   - component: {fileID: 114138741994746432}
-  m_Layer: 2
+  m_Layer: 10
   m_Name: NvrReticleDot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,7 +115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4807015875856554}
   - component: {fileID: 114643807606261754}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GvrControllerMain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4374665626045298}
   - component: {fileID: 114749389916920954}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GvrEditorEmulator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,7 +158,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1407633028661564}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0, y: 0.63, z: 2.8}
+  m_LocalPosition: {x: 3.3018985, y: 1.4264228, z: 7.731134}
   m_LocalScale: {x: 0.1750003, y: 1.2599995, z: 0.40000015}
   m_Children:
   - {fileID: 4374665626045298}

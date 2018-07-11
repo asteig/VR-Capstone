@@ -19288,6 +19288,18 @@ MonoBehaviour:
   nextPoint: {fileID: 1246786613}
   speed: 2
   player: {fileID: 0}
+--- !u!135 &505503836
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 505503829}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.1300004
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &505928509
 GameObject:
   m_ObjectHideFlags: 0
@@ -26040,7 +26052,7 @@ GameObject:
   - component: {fileID: 676558664}
   - component: {fileID: 676558663}
   - component: {fileID: 676558662}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69212,7 +69224,7 @@ GameObject:
   - component: {fileID: 1731294945}
   - component: {fileID: 1731294944}
   - component: {fileID: 1731294943}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Ceiling (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
