@@ -9234,6 +9234,87 @@ BillboardRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Billboard: {fileID: 22600000, guid: 36754ec4f0130ed4297981fb88eb0433, type: 3}
+--- !u!1 &516896272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 109392, guid: 8cd8541d2e90743e681b8a989c6530c2, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 516896273}
+  - component: {fileID: 516896274}
+  m_Layer: 0
+  m_Name: KKSpeechRecognizerListener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &516896273
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 436470, guid: 8cd8541d2e90743e681b8a989c6530c2, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 516896272}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 414.64706, y: 195.96094, z: 401.88562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 605566924}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &516896274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11439722, guid: 8cd8541d2e90743e681b8a989c6530c2,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 516896272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877a11f210144444faaef94044ccb895, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onSupportedLanguagesFetched:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: KKSpeech.SpeechRecognizerListener+SupportedLanguagesCallback, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onAuthorizationStatusFetched:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: KKSpeech.SpeechRecognizerListener+AuthorizationCallback, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onPartialResults:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: KKSpeech.SpeechRecognizerListener+ResultCallback, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onFinalResults:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: KKSpeech.SpeechRecognizerListener+ResultCallback, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onAvailabilityChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: KKSpeech.SpeechRecognizerListener+AvailabilityCallback, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onErrorDuringRecording:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: KKSpeech.SpeechRecognizerListener+ErrorCallback, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onErrorOnStartRecording:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: KKSpeech.SpeechRecognizerListener+ErrorCallback, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onEndOfSpeech:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &522109298
 GameObject:
   m_ObjectHideFlags: 0
@@ -10268,6 +10349,35 @@ LODGroup:
     renderers:
     - renderer: {fileID: 759679856}
   m_Enabled: 1
+--- !u!1 &605566923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 605566924}
+  m_Layer: 0
+  m_Name: SpeechRec
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &605566924
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 605566923}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 414.64706, y: 195.96094, z: 401.88562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 516896273}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &608291803
 GameObject:
   m_ObjectHideFlags: 0
