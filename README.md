@@ -27,10 +27,10 @@ For the Capstone project, I indend to get every point! They're all individually 
 ### Challenges
 - [ ] Speech Recognition (500 points) ```FEASIBLE```
 - [X] User Testing (250 x2 with Video Player) ```FEASIBLE```
-- [-] Computer Shader (500 points) ```REMOVED```
+- [ ] Computer Shader (500 points) ```REMOVED```
 - [ ] Multiplayer (500 points) ```FEASIBLE```
-- [-] Mixed-Reality Video (500 points) ```REMOVED```
-- [-] App Store (1000 points) ```REMOVED```
+- [ ] Mixed-Reality Video (500 points) ```REMOVED```
+- [ ] App Store (1000 points) ```REMOVED```
 
 **Total**: 500 points
 
