@@ -35,3 +35,4 @@ For the Capstone project, I indend to get every point! They're all individually 
 **Total**: 500 points
 
 For more information on how each achievement was implemented, please see my Medium post: 
+https://medium.com/@asteig/udacity-vr-capstone-5521bd156862
