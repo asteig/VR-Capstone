@@ -22,7 +22,7 @@ For the Capstone project, I indend to get every point! They're all individually 
 - [X] 3D Modeling (250 points) ```STRETCH```
 - [-] Photogrammetry (250 points) ```REMOVED```
 
-**Total**: 1000
+**Total**: 1200
 
 ### Challenges
 - [ ] Speech Recognition (500 points) ```FEASIBLE```
