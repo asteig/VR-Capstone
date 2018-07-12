@@ -20,9 +20,9 @@ For the Capstone project, I indend to get every point! They're all individually 
 - [X] Alternate Storyline (250 points) ```FEASIBLE```
 - [X] AI (250 points) ```STRETCH```
 - [X] 3D Modeling (250 points) ```STRETCH```
-- [-] Photogrammetry (250 points) ```REMOVED```
+- [X] Photogrammetry (250 points) ```RE-ADDED```
 
-**Total**: 1200
+**Total**: 1500
 
 ### Challenges
 - [ ] Speech Recognition (500 points) ```FEASIBLE```
