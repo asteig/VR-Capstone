@@ -35,4 +35,5 @@ For the Capstone project, I indend to get every point! They're all individually 
 **Total**: 500 points
 
 See Medium post for User Testing: 
+
 https://medium.com/@asteig/udacity-vr-capstone-5521bd156862
