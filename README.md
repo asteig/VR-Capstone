@@ -34,6 +34,5 @@ For the Capstone project, I indend to get every point! They're all individually 
 
 **Total**: 500 points
 
-See Medium post for User Testing: 
-
+See Medium post for details on each achievement:
 https://medium.com/@asteig/udacity-vr-capstone-5521bd156862
