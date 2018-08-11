@@ -38,9 +38,6 @@ For the Capstone project, I indend to get every point! They're all individually 
 
 
 Walkthrough Video: https://www.youtube.com/watch?v=i_swFh1OA-M
+
 Points Video: https://www.youtube.com/watch?v=55YCUPFA
-
-
-See Medium post for details on each achievement:
-https://medium.com/@asteig/udacity-vr-capstone-5521bd156862
 
