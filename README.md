@@ -41,5 +41,3 @@ Emotion: Fear
 
 Walkthrough Video: https://www.youtube.com/watch?v=i_swFh1OA-M
 
-Points Video: https://www.youtube.com/watch?v=55YCUPFA
-
