@@ -2,8 +2,6 @@
 
 Emotion: Fear
 
-For the Capstone project, I indend to get every point! They're all individually feasible, the limiting factor is time. By working at a steady pace, I hope to complete as many as possible. 
-
 ## Achievements
 ### Fundamentals
 - [X] Scale (100 points) ``````FEASIBLE``````
