@@ -1,5 +1,9 @@
 # VR Capstone Project
 
+Capstone Project for Udacity's Virtual-Reality Nanodegree Program, Term 3. 
+
+More Information: [Syllabus](https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/nd106+VR+Mobile+360+-+Syllabus+1.0.pdf)
+
 Emotion: Fear
 
 ## Achievements
